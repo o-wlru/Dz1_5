@@ -58,8 +58,8 @@ public class Main {
         System.out.println("Задание 3");
 
         //Обратный вывод первого массива
-        for (int i = per.length - 1; i > 0; i--)
-            while (i >= 1) {
+        for (int i = per.length - 1; i >= 0; i--)
+            while (i >= 0) {
                 if (i < 1) {
                     System.out.println(per[i]);
                     break;
@@ -67,21 +67,53 @@ public class Main {
                     System.out.print(per[i] + ", ");
                     break;
                 }
-//то, что не получилось в прошлой домашке, в этой тоже не получилось. При обратном выводе не получается
-// вывести самый первый элемент. Понимаю что должна быть какая-то простая конструкция,
-// но она никак не составляется :((
+
             }
 
         //обратный вывод второго массива
+        for (int i = vtor.length - 1; i >= 0; i--)
+            while (i >= 0) {
+                if (i < 1) {
+                    System.out.println(vtor[i]);
+                    break;
+                } else {
+                    System.out.print(vtor[i] + ", ");
+                    break;
+                }}
 
         //обратный вывод третьего массива
+        for (int i = tret.length - 1; i >= 0; i--)
+            while (i >= 0) {
+                if (i < 1) {
+                    System.out.println(tret[i]);
+                    break;
+                } else {
+                    System.out.print(tret[i] + ", ");
+                    break;
+                }}
 
 
         //Задание 4
         System.out.println("Задание 4");
 
         // Перевод нечетных элементов массива в четные
-//
+        for (int i = 0; i < 3; i++) {
+            if (i != per.length) {
+                if (per[i] % 2 != 0) {
+                    per[i] = per[i]+1;
+                }
+
+                System.out.print(per[i] + ", ");
+            } else {
+                System.out.println(per[i]);
+            }
+        }
+
+
+
+
+
+
             }
 
         }
