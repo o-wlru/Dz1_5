@@ -58,39 +58,31 @@ public class Main {
         System.out.println("Задание 3");
 
         //Обратный вывод первого массива
-        for (int i = per.length - 1; i >= 0; i--)
-            while (i >= 0) {
-                if (i < 1) {
-                    System.out.println(per[i]);
-                    break;
-                } else {
-                    System.out.print(per[i] + ", ");
-                    break;
-                }
-
+        for (int i = per.length-1; i >= 0; i--)
+            if (i >= 1) {
+                System.out.print(per[i] + ", ");
+            } else {
+                System.out.println(per[i]);
             }
 
+
+
+
         //обратный вывод второго массива
-        for (int i = vtor.length - 1; i >= 0; i--)
-            while (i >= 0) {
-                if (i < 1) {
-                    System.out.println(vtor[i]);
-                    break;
-                } else {
-                    System.out.print(vtor[i] + ", ");
-                    break;
-                }}
+        for (int i = vtor.length-1; i >= 0; i--)
+            if (i >= 1) {
+                System.out.print(vtor[i] + ", ");
+            } else {
+                System.out.println(vtor[i]);
+            }
 
         //обратный вывод третьего массива
-        for (int i = tret.length - 1; i >= 0; i--)
-            while (i >= 0) {
-                if (i < 1) {
-                    System.out.println(tret[i]);
-                    break;
-                } else {
-                    System.out.print(tret[i] + ", ");
-                    break;
-                }}
+        for (int i = tret.length-1; i >= 0; i--)
+            if (i >= 1) {
+                System.out.print(tret[i] + ", ");
+            } else {
+                System.out.println(tret[i]);
+            }
 
 
         //Задание 4
